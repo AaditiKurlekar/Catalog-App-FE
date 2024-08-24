@@ -1,0 +1,54 @@
+.admin {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+
+    .admin-header {
+        min-width: 400px;
+        min-height: 300px;
+        padding: 10px;
+
+        .header {
+            width: 100% !important;
+            height: 100% !important;
+
+            .title {
+                text-align: center !important;
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+
+        .upload-contianer {
+            margin-top: 50px;
+
+            form {
+                display: flex;
+                flex-direction: column;
+
+                button {
+                    width: 200px;
+                    border: 1px solid white;
+                    margin-top: 10px !important;
+                    margin: auto;
+                    font-weight: 600;
+                }
+
+            }
+        }
+
+        .delete-container {
+            margin-top: 20px;
+            cursor: pointer;
+
+            span {
+                color: Red
+            }
+        }
+    }
+}
+
+.admin-circle {
+    left: 35% !important;
+    top: 35% !important;
+}
