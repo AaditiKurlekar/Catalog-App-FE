@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseUrl = "https://catalog-app-delta.vercel.app/api/products"
+const baseUrl = "https://catalog-app-inky.vercel.app/api/products"
 export const getProducts = async (filters, sort, page) => {
 
 
